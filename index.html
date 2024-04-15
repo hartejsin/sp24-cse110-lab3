@@ -9,10 +9,11 @@
 </head>
 <body>
     <header>
-        <h1>Meeting Minutes</h1>
-        <h3>4/11/2024</h3>
+        <h1><b>Q1 Week 1 Meeting Minutes</b></h1>
+        <h3><strong>4/11/2024</strong></h3>
     </header>
     
+    <span>
     <nav>
         <ul>
             <li><a href="#agenda">Agenda</a></li>
@@ -20,16 +21,19 @@
             <li><a href="#discussion">Discussion</a></li>
         </ul>
     </nav>
-    
+</span>
+
+    <div class="components">
     <main>
         <section id="agenda">
             <h2>Agenda</h2>
             
             <ol>
-                <li>Introduction</li>
-                <li>Review of Previous Meeting Minutes</li>
-                <li>Discussion Topics</li>
-                <li>Next Steps</li>
+                <li><em>Finish Leadership Video <a href="https://www.youtube.com/watch?v=NQN4mtTagL0">Video</a></em></li>
+                <li>Review last quarter's financial report.</li>
+                <li>Create a quarterly roadmap and discuss new project adjusting for previous quarter</li>
+                <li>Familiarize everyone with the tools and steps</li>
+                <li><i>Questions?</i></li>
             </ol>
         </section>
         
@@ -46,76 +50,86 @@
         
         <section id="discussion">
             <h2>Discussion</h2>
-            <p>The team discussed the upcoming project deadline and assigned tasks to each team member. We will continue our 2 week spring to deliver the Chrome Facial Recognition Product.</p>
+            <p>The team discussed the upcoming project deadline and assigned tasks to each team member. <br> We will being our 2 week sprint on the new website design.</p>
         </section>
     </main>
+    </div>
     
     <footer>
-        <p>&copy; 2024 Company Name. All rights reserved.</p>
+        <p>End of Meeting</p>
     </footer>
-    
-    <!-- Text Content -->
-    <div>This is a div element.</div>
-    <span>This is a span element.</span>
-    <hr>
     
 
     
     
-    <!-- Inline Text Semantics -->
-    <p>This is a <b>bold</b> text.</p>
-    <p>This is a <strong>strong</strong> text.</p>
-    <p>This is an <i>italic</i> text.</p>
-    <p>This is an <em>emphasized</em> text.</p>
+    <hr>
     
-    <!-- Links -->
-    <p>This is a link: <a href="https://example.com">Example</a></p>
-    <p>This is a line break:<br>It breaks the line.</p>
+
     
-    <!-- Images and Multimedia -->
-    <img src="image.jpg" alt="Image Description">
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <video controls>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
+
+
+  
+<details>
+  <summary>Click to see a joke</summary>
+  <p>Why did the chicken cross the road ... to get to the other side!</p>
+</details>
     
-    <!-- Interactive Elements -->
-    <details>
-        <summary>Click to expand</summary>
-        <p>Additional information goes here.</p>
-    </details>
-    
-    <!-- Forms -->
+
     <form>
         <fieldset>
-            <legend>Feedback Form</legend>
+            
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"><br>
-            <label for="comment">Comment:</label><br>
-            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
-            <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
-            <label for="subscribe">Subscribe to newsletter</label><br>
-            <input type="radio" id="option1" name="option" value="option1">
-            <label for="option1">Option 1</label><br>
-            <input type="radio" id="option2" name="option" value="option2">
-            <label for="option2">Option 2</label><br>
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date"><br>
-            <label for="car">Choose a car:</label>
-            <select id="car" name="car">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label for="browser">Favorite browser:</label><br>
+            <input list="browsers" id="browser" name="browser">
+            <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+            </datalist><br>
+            <label for="cars">Favorite car brand:</label><br>
+            <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="toyota">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
             </select><br>
+    
+            <label for="message">Meeting opinions:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+    
+            <label for="agree">I agree to the terms and conditions:</label>
+            <input type="checkbox" id="agree" name="agree" value="agree"><br>
+    
+            <label>Preferred method of contact:</label><br>
+            <label for="email_contact">Email</label>
+            <input type="radio" id="email_contact" name="contact" value="email">
+            <label for="phone_contact">Phone</label>
+            <input type="radio" id="phone_contact" name="contact" value="phone"><br>
+    
             <input type="submit" value="Submit">
         </fieldset>
     </form>
+
+    <img src="DSC_0317.jpg" alt="Vid" width="200" height="150">
+    <video width="400" controls autoplay>
+        <source src="vid.mov" type="video/mp4">
+    </video>
+    <audio width="400" controls autoplay>
+        <source src="audio.m4a" type="audio/mp3">
+    </audio>
+      
+      
+    
+    
+
+
+    
 </body>
 </html>
