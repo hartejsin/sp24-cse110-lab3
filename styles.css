@@ -95,8 +95,8 @@ form label{
 }
 
 footer:hover {
-    background-color: color-mix(rgb, red 50%, blue 50%);
-    }
+    background-color: color-mix(in srgb, #34c9eb, white);
+}
 details:active{
     color: red;
 }
