@@ -41,7 +41,7 @@ header h1{
     color: hsl(34, 85%, 41%);
 }
 header h3{
-    color: color(display-p3 0 1 0);
+    color: color(display-p3 0 0.5 1);
 }
 
 /* 3 relative Units */
@@ -94,7 +94,7 @@ form label{
 }
 
 footer:hover {
-    background-color: #555;
+    background-color: color-mix(rgb, red 50%, blue 50%);
     }
 details:active{
     color: red;
