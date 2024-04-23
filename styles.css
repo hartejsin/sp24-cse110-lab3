@@ -41,7 +41,8 @@ header h1{
     color: hsl(34, 85%, 41%);
 }
 header h3{
-    color: color(display-p3 0 0.5 1);
+    /*color: color(display-p3 0 0.5 1); this is how i tried wider gamut but validator wouldnt accept, couldnt find anythingonline */
+    color: blue;
 }
 
 /* 3 relative Units */
